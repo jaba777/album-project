@@ -48,3 +48,24 @@ header .Menu .menu2-title ul li{
 header .Menu .menu2-title ul li a{
     color: #fff;
 }
+
+header .Albums{
+    position: relative;
+}
+
+header .Albums .fa-camera{
+    padding: 2rem 3.5rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+header .Albums button{
+    margin-left: 75%;
+    padding: 0.5rem 1rem;
+    font-size: 1.3rem;
+    background: rgb(38, 38, 49);
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+}
