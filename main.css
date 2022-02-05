@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    transition: all 0.7s linear;
+}
+
+header{
+    top: 0;
+    background-color: rgb(38, 38, 49);
+    width: 100%;
+}
+
+header .Menu{
+    padding: 2rem 3.5rem;
+    color: #fff;
+}
+
+header .Menu .menu-title{
+    width: 40rem;
+    display: inline-block;
+}
+
+header .Menu .menu2-title{
+    display: inline-block;
+    width: 25rem;
+    margin-left: 17rem;
+}
+
+header .Menu .menu2-title ul,
+header .Menu .menu-title p{
+    margin-top: 0.8rem;
+}
+
+header .Menu .menu-title p{
+    color: rgb(66, 66, 90);
+}
+
+header .Menu .menu2-title ul{
+    list-style: none;
+}
+
+header .Menu .menu2-title ul li{
+    padding-top: 0.2rem;
+}
+
+header .Menu .menu2-title ul li a{
+    color: #fff;
+}
