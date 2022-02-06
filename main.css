@@ -120,9 +120,10 @@ section .container{
 section .container .box{
     width: 25rem;
     height: 25rem;
-    margin: 0 auto;
+    
     position: relative;
     display: inline-block;
+    border: 1px solid rgb(158, 156, 156);
 }
 
 section .container .box .box-title{
