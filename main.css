@@ -111,16 +111,16 @@ header .Albums .button-icons i{
     border: 2px solid rgb(43, 43, 44);
 }
 
-section .container{
-    width: 90%;
-    margin: 0 auto;
 
+section .container{
+    margin: 0 auto;
+    max-width: 1130px;
 }
 
 section .container .box{
-    width: 25rem;
+    width: 23rem;
     height: 25rem;
-    
+    margin: 5px 0;
     position: relative;
     display: inline-block;
     border: 1px solid rgb(158, 156, 156);
